@@ -84,3 +84,51 @@ In a client server architecture, different types of servers handle various reque
 - **Authentication Server:** Manages user authentication and access control
 
 ![alt text](image-4.png)
+
+## Web Pages
+- HTML -> Markup
+- CSS -> 
+### HTML
+A web page is a document that is accessed through the internet and displayed in a web browser. It is primarily written in **HTML**, but it also contain elements like **CSS** for styling, **JavaScript** for interactivity, and multimedia content such as images and videos
+
+Each web page is identified by a unique URL, which serves as its address on the internet
+
+HTML Stands for **HyperText Markup Language**, it uses tags to define the role of each element on the page
+
+An HTML docuemnt starts wtih the `<!DOCTYPE html>` declaration, which tells the browser that the document is written in HTML5
+
+An html page consists of 3 main secitons:
+- `<html>` The root element that contains the entire web page content
+- `<head>` Includes metadata, links to stylesheets and scripts that help define how the page behaves
+- `<body>` Contains the visible content of the page
+
+### CSS 
+Css stands for **Cascading Style Sheets** is a language used to define the appearance and layout of a web page
+
+CSS is made of rules, composed by a selector and a set of declarations enclosed in curly braces `{}`. Each declaration is made up of a property and a value separated by a colon `:` 
+
+### Javascript
+JS is a programming language that makes web pages interactive. JS allows developers to create dynamic content, respond to user actions, and manipulate the page in real time
+
+![alt text](image-5.png)
+
+## Static vs Dynamic web pages
+Static web pages contain fixed content written in HTML and CSS. The content remains the same for all users and only changes when manually updated by a developer
+- Simple and fast to load
+- No database interaction
+- Suitable for informational sites, blogs and portfolios
+
+Dynamic web pages generate the content in real time, often based on user input and data from a database
+
+## Web Technologies
+There are many other technologies and tools that power full fledget web applications:
+- **Backend Languages:** Handle server side logic, database interaction and business processes
+- **Databases**
+- **Web Frameworks**
+- **APIs:** Enable communication between the frontend and backen or with external services
+- **DevOps & Cloud Services** (e.g. AWS, Docker), manage hosting, deployment and scaling of applications
+
+## Tools for the course
+- VSCode
+- Prettier (VSCode Extension)
+- Live Server (VSCode Extension)
