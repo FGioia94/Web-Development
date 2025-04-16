@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Global tech conference 2024</h1>
+      <span><i>join us</i></span>
+    </header>
+    <main>
+      <section>
+        <h2>register for the conference</h2>
+        <form>
+          <label for="nome">Full Name</label>
+          <input type="text" name="nome" required /><br />
+          <label for="mail">Email</label>
+          <input type="email" name="mail" required /><br />
+          <label for="phone">Phone Number</label>
+          <input type="tel" name="phone" required /><br />
+
+          <fieldset>
+            <legend>Dietary preferences</legend>
+            <input type="checkbox" id="vegetarian" name="diet" />
+            <label for="vegetarian">Vegetarian</label><br />
+            <input type="checkbox" id="vegan" name="diet" />
+            <label for="vegan">Vegan</label><br />
+            <input type="checkbox" id="glutenFree" name="diet" />
+            <label for="glutenfree">Gluten Free</label><br />
+          </fieldset>
+          <fieldset>
+            <legend>Registration type</legend>
+            <input type="radio" name="regtype" id="standard" checked />
+            <label for="standard">Standard</label><br />
+            <input type="radio" name="regtype" id="student" />
+            <label for="student">Student</label><br />
+            <input type="radio" name="regtype" id="vip" />
+            <label for="vip">VIP</label><br />
+          </fieldset>
+          <label for="sessions">Preferred Session</label>
+          <select name="sessions">
+            <option>Opening Keynote</option>
+            <option>AI Innovations</option>
+            <option>Modern Web Development</option>
+          </select>
+          <button type="submit"></button>
+        </form>
+      </section>
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th>time</th>
+              <th>Session title</th>
+              <th>Speaker</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>09 00</td>
+              <td>Opening Keynote</td>
+              <td>Speaker1</td>
+            </tr>
+            <tr>
+              <td>09 00</td>
+              <td>Speech2</td>
+              <td>Speaker2</td>
+            </tr>
+            <tr>
+              <td>09 00</td>
+              <td>Speech3</td>
+              <td>Speaker3</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <footer>
+        <span>contact us at <a href="mailto:contacts@test.it">contacts@test.it</a></span>
+        <span>visit our website <a href="www.test.it">www.test.it</a></span>
+      </footer>
+    </main>
+  </body>
+</html>
