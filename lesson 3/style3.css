@@ -1,0 +1,10 @@
+h1 {
+  color: black;
+  font-size: 32px;
+}
+#page-title {color: darkblue;
+    border-bottom: 2px solid black;
+}
+.menu-item {font-style: italic; color: green;}
+[data-highlight="true"] {color: orange;}
+section[id]{color: lightblue;}
