@@ -1,0 +1,32 @@
+#main-container {
+  width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.boxes {
+  width: 755px;
+  display: block;
+  margin: 20px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+header,
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+#blue-box {
+  background-color: lightblue;
+}
+
+#red-box {
+  background-color: lightcoral;
+}
+
+#green-box {
+  background-color: lightgreen;
+}
